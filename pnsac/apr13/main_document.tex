@@ -1,0 +1,141 @@
+% Main document PNSAC newsletter
+% Language: Latex
+%
+
+% ................................................................... %
+% Preamble .......................................................... %
+
+\documentclass[a4paper]{report}
+
+
+\usepackage{amssymb,amsmath}
+
+% Note: Need to include amsmath before PNSAC, because the latter redefines the
+% equation environment.
+\usepackage{../PNSAC} 
+\usepackage[round]{natbib}
+% To control float placement
+\usepackage{stfloats}
+
+% for Sweave
+\usepackage{listings}
+
+% for tcltk-update
+\usepackage{shortvrb}
+
+%\usepackage{chapterbib}
+\sloppy{}
+
+% Use rotating package to typeset images in landscape mode
+\usepackage{rotating}
+
+% Using caption package and \caption* to exclude figure numbers.
+\usepackage{caption}
+
+% Using subfigure package (for side-by-side images).
+\usepackage{subfigure}
+
+% ................................................................... %
+% Begin document .................................................... %
+
+\begin{document}
+
+\volume{9} % \volnumber{1}
+\issue{2}
+\date{April 2013} 
+\titlepage
+
+% Progress report ................................................... %
+
+% Report
+\begin{article}
+	\input{article_ProgReport} 
+\end{article}
+
+% Report
+% \begin{article}
+% 	\input{article_ProgReport_Sup} 
+% \end{article}
+
+%\pagebreak
+
+% Features ........................................................... %
+
+% Feature article
+
+\begin{article}
+	\input{article_Feature1} 
+\end{article}
+
+%\pagebreak
+
+% Feature article
+\begin{article}                 
+	\input{article_Feature2} 
+\end{article}
+
+%\pagebreak
+
+% Feature article
+%\begin{article}
+%	\input{article_Feature3} 
+%\end{article}
+
+
+
+%\pagebreak
+
+% President's report ................................................. %
+
+% Report
+\begin{article}
+	\input{article_PresReport} 
+\end{article}
+
+%\pagebreak
+
+% Volunteer's corner ................................................. %
+
+% Volunteer bio
+% \begin{article}                 
+% 	\input{article_Volunteer1} 
+% \end{article}
+
+% Recent events ...................................................... %
+
+\begin{article}                 
+	\input{article_RecentEvents}
+\end{article}
+
+\pagebreak
+
+% Special article 
+\begin{article}
+	\input{article_Special} 
+\end{article}
+
+\pagebreak
+
+% Forthcoming events ................................................. %
+
+\begin{article}
+   \input{article_ForthEvents} 
+\end{article}
+
+%\pagebreak
+
+% Board members/contact info ......................................... %
+
+\begin{article}
+  \input{article_ContactInfo} 
+\end{article}
+
+
+%\textit{All photos by Guy Poirier.}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: main_document.tex
+%%% End: 
