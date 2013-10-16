@@ -28,7 +28,7 @@ missing and needs to  be replaced.
    %name of the graphic, without the path AND in EPS format:
    \includegraphics[scale=0.75]{ass.eps}
    %caption of the figure 
-   \caption*{\small \em Troop seat construction detail.}
+   \caption*{\small \em Troop seat drawing detail.}
    %label of the figure, which has to correspond to \ref{}:
    \label{fig:ass}
 \end{figure*}
