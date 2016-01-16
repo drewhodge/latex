@@ -1,0 +1,1 @@
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=pnsac_newsletter_Apr15.pdf main_document.pdf
