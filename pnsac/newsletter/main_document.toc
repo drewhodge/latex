@@ -1,0 +1,18 @@
+\contentsline {chapter}{Editor's Notes}{1}{section*.3}
+\contentsline {chapter}{Project Manager's Progress Report}{2}{section*.4}
+\contentsline {section}{Nr 4 Engine}{2}{section*.5}
+\contentsline {section}{Fuselage and Main Cabin}{2}{section*.6}
+\contentsline {section}{Cabin Liners and Troop Seats}{2}{section*.7}
+\contentsline {section}{Planned Restoration Work---2016}{2}{section*.8}
+\contentsline {chapter}{Notes from the President}{3}{section*.9}
+\contentsline {chapter}{Project Manager's Progress Report}{4}{section*.10}
+\contentsline {section}{Nr 4 Engine}{4}{section*.11}
+\contentsline {section}{Fuselage and Main Cabin}{4}{section*.12}
+\contentsline {section}{Cabin Liners and Troop Seats}{4}{section*.13}
+\contentsline {section}{Planned Restoration Work---2016}{4}{section*.14}
+\contentsline {chapter}{Our Members}{5}{section*.15}
+\contentsline {chapter}{Volunteers Working on North Star Restoration}{5}{section*.16}
+\contentsline {chapter}{Calendar of Events}{6}{section*.17}
+\contentsline {chapter}{Board Members' Contact Information}{7}{section*.18}
+\contentsline {section}{PNSAC Executive}{7}{section*.19}
+\contentsline {subsection}{Newsletter\footnote {This newsletter is typeset using \LaTeX . The style package used for the newsletter (PNSAC.sty) is a modification of GRASSnews.sty belonging to the Geographic Analysis Resources Support System (GRASS). The modification was made possible by kind permission of the Editor-in-Chief of GRASS-News.}}{7}{section*.20}
