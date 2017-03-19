@@ -2,12 +2,27 @@
 % Template PNSAC newsletter - Contact information
 % Language: Latex
 
+% Removes superscript from footnotes
+\renewcommand\thefootnote{\relax}
+
+% \renewcommand\thefootnote{\relax} 
+%This is cheap and (moderately) cheerful, but it has some odd 
+%properties. 
+%If you want numbered footnotes again subsequently in your document, 
+%you should say: 
+%  \let\oldthefootnote\thefootnote 
+%  \renewcommand\thefootnote{\relax} 
+%  ... 
+%  \let\thefootnote\oldthefootnote 
+%  ... (footnotes are numbered again) 
+%One of the endearing properties of this technique is that the 
+%footnotes are counted even if their number isn't printed 
 
 \title{Board and Officer's Contact Information}
 
 \maketitle
 
-\section{Board of Directors}
+\subsection{Board of Directors}
 %\label{sec:misc_pnsac_executive}
 
 %\begin{minipage}{\columnwidth}
@@ -44,7 +59,7 @@ Director}\\
 
 \vspace{12pt}
 
-\section{Other Officers}
+\subsection{Other Officers}
 
 \address{Bruce Gemmill\\
 Membership Secretary\\
@@ -55,8 +70,11 @@ Treasurer\\
 \email{treasurer@projectnorthstar.ca}}
 
 %\end{minipage}
-  
-\subsection{Newsletter\protect\footnote{This newsletter is typeset using
+
+
+
+
+\subsection{Newsletter\protect\footnotetext{This newsletter is typeset using
     \LaTeX.  The style package used for the newsletter (PNSAC.sty) is
     a modification of GRASSnews.sty belonging to the Geographic
     Analysis Resources Support System (GRASS). The modification was
@@ -94,6 +112,7 @@ Treasurer\\
 
 %\address{PNSAC Newsletter postal and Web site addresses:}
 
+\subsection{Association General Contact Information}
 
 \address{PNSAC\\
 P.O.Box 44005\\
