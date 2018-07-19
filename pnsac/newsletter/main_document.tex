@@ -42,16 +42,18 @@
 % Using package for Initial drop capitals
 \usepackage{lettrine}
 
-
+% Using 
+\usepackage{graphicx}
+\graphicspath{ {./images-current/} }
 
 % ................................................................... %
 % Begin document .................................................... %
 
 \begin{document}
 
-\volume{14} % \volnumber{1}
-\issue{1}
-\date{January 2018} 
+\volume{14} % \volnumber{2}
+\issue{2}
+\date{July 2018} 
 \titlepage
 
 % Editor's notes
@@ -96,7 +98,7 @@
     \input{article_MemberInterview} 
 \end{article}
 
-\pagebreak
+%\pagebreak
 
 % Features
 % ........................................................... %
@@ -142,16 +144,18 @@
 %\pagebreak
 
 % Special article 
-%\begin{article}
-%	\input{article_SpecialEvents} 
-%\end{article}
+\begin{article}
+	\input{article_SpecialEvents} 
+\end{article}
+
+\pagebreak
 
 % Miscellany article 
-% \begin{article}
-% 	\input{article_Miscellany} 
-% \end{article}
+\begin{article}
+	\input{article_Miscellany} 
+\end{article}
 
-%\pagebreak
+\pagebreak
 
 
 % Forthcoming events ................................................. %
