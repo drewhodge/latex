@@ -20,6 +20,7 @@
 \usepackage[round]{natbib}
 % To control float placement
 \usepackage{stfloats}
+\usepackage{float}
 
 % for Sweave
 \usepackage{listings}
@@ -41,8 +42,6 @@
 
 % Using package for Initial drop capitals
 \usepackage{lettrine}
-
-
 
 % ................................................................... %
 % Begin document .................................................... %
@@ -67,11 +66,19 @@
 
 \pagebreak
 
-% President's report ................................................. %
+% President's report
+%................................................. %
 
 % Report
 \begin{article}
 	\input{article_PresReport} 
+\end{article}
+
+\pagebreak
+
+% Special
+\begin{article}
+	\input{article_Special} 
 \end{article}
 
 %\pagebreak
@@ -152,10 +159,10 @@
 
 % Forthcoming events ................................................. %
 
-\begin{article}
-   \input{article_ForthEvents} 
-\end{article}
-
+%\begin{article}
+%   \input{article_ForthEvents} 
+%\end{article}
+%
 %\pagebreak
 
 
